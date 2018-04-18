@@ -13,6 +13,9 @@ app.use(bodyParser.json());
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
+  app.get('*', function (req, res) {
+  res.sendFile('index.html');
+});
 }
 // configure using our exported passport function.
 // we need to pass the express app we want configured!
