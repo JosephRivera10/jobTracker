@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("./client"))
  .get('*', function (req, res) {
   // const index = path.join(__dirname, 'build', 'index.html');
-  res.sendFile("./client/build/index.html");
+  res.sendFile(__dirname + "/index.html");
 });
 }
 // configure using our exported passport function.
