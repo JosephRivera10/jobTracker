@@ -68,7 +68,7 @@ class Navbar extends Component {
         height: "auto",
       }}
       className="AppBar"
-      title="JobNote"
+      title="Next Gig"
       showMenuIconButton={true}
       iconElementLeft={
         <Sidedrawer/>
