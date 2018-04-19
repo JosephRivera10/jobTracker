@@ -4,7 +4,6 @@ import SmallCard from '../components/SmallCard';
 import AddCardModal from '../components/AddCardModal';
 import  { Redirect } from 'react-router-dom';
 
-
 class HomePage extends Component {
 
   componentDidMount() {
@@ -33,9 +32,8 @@ class HomePage extends Component {
         }
 
         {!user &&
-          
+
            <Redirect to='/login'  />
-          
         }
       </Fragment>
     );

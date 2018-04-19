@@ -11,8 +11,6 @@ import FlatButton from 'material-ui/FlatButton';
 import  { Redirect } from 'react-router-dom';
 
 
-
-
 BigCalendar.momentLocalizer(moment);
 class Calendar extends Component {
   state = {
