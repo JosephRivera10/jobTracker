@@ -48,11 +48,11 @@ class SetStage extends Component {
         >
           <Menu>
             <MenuItem id = {this.state.id} 
-            onClick={() =>this.props.handleStage("apply", this.state.id)} 
+            onClick={() =>this.props.handleStage("apply", this.state.id)}
             primaryText="To Apply" 
             value = "apply" />
             <MenuItem id = {this.state.id} 
-            onClick={() =>this.props.handleStage("applied", this.state.id)}  
+            onClick={() =>this.props.handleStage("applied", this.state.id)}
             primaryText="Applied" 
             value = "applied" />
             <MenuItem id = {this.state.id} 
@@ -64,7 +64,7 @@ class SetStage extends Component {
             primaryText="Offer" 
             value = "offer" />
             <MenuItem id = {this.state.id} 
-            onClick={() =>this.props.handleStage("rejected", this.state.id)} 
+            onClick={() =>this.props.handleStage("rejected", this.state.id)}
             primaryText="Rejected" 
             value = "rejected"/>
 
