@@ -45,24 +45,6 @@ export default class DrawerUndockedExample extends React.Component {
           <MenuItem onClick={this.handleClose} href="/">Jobs</MenuItem>
           <MenuItem onClick={this.handleClose} href="/calendar">Calendar</MenuItem>
           <MenuItem onClick={this.handleClose} href="/map">Map</MenuItem>
-          {/* <MenuItem
-            primaryText="Color Theme"
-            rightIcon={<ArrowDropRight />}
-          menuItems={[
-            <MenuItem primaryText="Blue/Orange"
-            onClick={() => this.colorChange("lightBlue500","orange500")}
-               />,
-            <MenuItem primaryText="Teal/Indigo"
-            onClick={() => this.colorChange("teal500","indigo500")}
-               />,
-            <MenuItem primaryText="Indigo/Pink"
-            onClick={() => this.colorChange("indigo500","pink500")}
-           />,
-            <MenuItem primaryText="Grey/Orange"
-            onClick={() => this.colorChange("blueGrey500","orange500")}
-            />,
-          ]}
-          /> */}
           <MenuItem onClick={this.handleClose} href="/help">Help</MenuItem>
         </Drawer>
       </div>

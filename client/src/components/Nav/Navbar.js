@@ -49,7 +49,7 @@ class Navbar extends Component {
         height: "auto",
       }}
       className="AppBar"
-      title={user ? <Navtabs handleClick={this.props.handleClick}/> : "JobNote"}
+      title={user ? <Navtabs handleClick={this.props.handleClick}/> : "Next Gig"}
       showMenuIconButton={true}
       iconElementLeft={
         <Sidedrawer/>
@@ -68,7 +68,7 @@ class Navbar extends Component {
         height: "auto",
       }}
       className="AppBar"
-      title="Next Gig"
+      title="NextGig"
       showMenuIconButton={true}
       iconElementLeft={
         <Sidedrawer/>
